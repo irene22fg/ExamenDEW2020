@@ -16,7 +16,6 @@ if (getCookie("album") != null) {
     showAlbum(getCookie("album"));
 }
 
-
 function showAlbum(id){
     deleteNodes();
     let idAlbum = id;
