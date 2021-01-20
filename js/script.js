@@ -50,7 +50,7 @@ function showAlbum(id){
     }
 }
 
-function añadirFav(evento){
+function añadirFav(evento){   //localStorage
 
     if(localStorage.getItem("albumFavs") == null){
         localStorage.setItem("albumFavs", JSON.stringify({favoritos: []}));
